@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(15, 10, 5);
+}
+
+p1{
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+p{
+
+    color: rgb(211, 211, 211);
+    
+}
+
+h1{
+    
+    color: rgb(233, 124, 0);
+    font: bold;
+    
+}
+
+h2{
+    
+    color: rgb(233, 159, 0);
+    font: bold;
+    
+}
+
+h3{
+    color: rgb(245, 222, 179);
+    font: bold;
+}
+
+
+#Principal{
+    color: rgb(233, 90, 7);
+    font: bold;
+    text-align: center;
+}
+
+header{
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ol, li{
+
+    color: rgb(240, 236, 236);
+}
+
+

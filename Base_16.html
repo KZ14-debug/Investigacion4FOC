@@ -1,0 +1,639 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo2.css">
+    <title>Base 2</title>
+
+</head>
+<body>
+    
+    <header>
+        
+        <h1 id="Principal">Cambio de base 16</h1>
+    
+    </header>
+
+    <main>
+        <p id="p1" style="text-align: center;"><strong>Esta pagina se puede ver el resultado de cambio de base de las <b>bases 16</b> a base 2, base 8 y base 10, junto a su proceso de conversion de base</strong></p>
+        <br>
+        <br>
+        <h2><center>FFFFFFF</center></h2>
+        <br>
+        <h3>Base 2</h3>
+        
+        <p><b>El proceso de cambio a base 2 es el siguiente:</b></p>
+        <ol>
+            <li> Se convierte cada digito en binario con 4 bits.
+                <br>
+                <br>
+                F = 1111
+                <br>
+                F = 1111
+                <br>
+                F = 1111
+                <br>
+                F = 1111
+                <br>
+                F = 1111
+                <br>
+                F = 1111
+                <br>
+                F = 1111
+            </li>
+            <br>
+            <li> Por ultimo se unen los valores convertidos a binario.
+                <br>
+                <br>
+                1111 1111 1111 1111 1111 1111 1111 = 1111111111111111111111111111
+            </li>
+            <br>
+        </ol>
+        <p> El resultado de cambio de base es (FFFFFFF)<sub>16</sub> = (1111111111111111111111111111)<sub>2</sub></p>
+
+        <br>
+        <br>
+        <h3>Base 8</h3>
+        
+        <p><b>El proceso de cambio a base 8 es el siguiente:</b></p>
+        <ol>
+            <li> Se convierte FFFFFFF a base 2.
+                <br>
+                <br>
+                FFFFFFF = 1111111111111111111111111111
+            </li>
+            <br>
+            <li> Se separa en grupos de 3 bits.
+                <br>
+                <br>
+                001 111 111 111 111 111 111 111 111 111
+            </li>
+            <br>
+            <li> Se convierte cada grupo de 3 bits a base 8, se agregaron ceros para completar los grupos de tres.
+                <br>
+                <br>
+                001	=1
+                <br>
+                111	= 7
+                <br>
+                111	= 7
+                <br>
+                111	=7
+                <br>
+                111	= 7
+                <br>
+                111	= 7
+                <br>
+                111	= 7
+                <br>
+                111	= 7
+                <br>
+                111	= 7
+            </li>
+            <br>
+            <li> Se une cada digito obtenido.
+                <br>
+                <br>
+                1 7 7 7 7 7 7 7 7= 177777777
+            </li>
+            <br>
+        </ol>
+        <p> El resultado de cambio de base es (FFFFFFF)<sub>16</sub> = (177777777)<sub>8</sub></p>
+
+        <br>
+        <br>
+
+        <h3>Base 16</h3>
+        
+        <p><b>El proceso de cambio a base 16 es el siguiente:</b></p>
+        <ol>
+            <li> Separar cada digito y representarlos en una potencia de 16.
+                <br>
+                <br>
+                (Fx16<sup>6</sup>)+(Fx16<sup>5</sup>)+(Fx16<sup>4</sup>)+(Fx16<sup>3</sup>)+(Fx16<sup>2</sup>)+(Fx16<sup>1</sup>)+(Fx16<sup>0</sup>)
+         
+            </li>
+            <br>
+            <li> Se convierten las potencias, y las F las convierte en su valor decimal que es 15.
+                <br>
+                <br>
+        
+                15x16,777,216 + 15x1,048,576 + 15x65,536 + 15x4,096 + 15x256 + 15x16 + 15x1
+        
+                 
+            </li>
+        
+            <br>
+            <li> Se realiza cada multiplicacion.
+                <br>
+                <br>
+                251658240+15728640+983040+61440+3840+240+15
+            </li>
+        
+            <br>
+            <li> Por ultimo se realiza la suma.
+                <br>
+                <br>
+                251658240+15728640+983040+61440+3840+240+15 = 268435455
+                <br>
+                <br>
+                
+            </li>
+            <br>
+        </ol>
+        <p> El resultado de cambio de base es (FFFFFFF)<sub>16</sub> = (268435455)<sub>10</sub></p>
+        <br>
+        <br>
+
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <h2><center>A90456</center></h2>
+    <br>
+    <h3>Base 2</h3>
+    
+    <p><b>El proceso de cambio a base 2 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte cada digito en binario con 4 bits.
+            <br>
+            <br>
+            A = 1010
+            <br>
+            9 = 1001 
+            <br>
+            0 = 0000
+            <br>
+            4 = 0100
+            <br>
+            5 = 0101
+            <br>
+            6 = 0110
+        </li>
+        <br>
+        <li> Por ultimo se unen los valores convertidos a binario.
+            <br>
+            <br>
+            1010 1001 0000 0100 0101 0110 = 101010010000010001010110
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (A90456)<sub>16</sub> = (101010010000010001010110)<sub>2</sub></p>
+
+    <br>
+    <br>
+    <h3>Base 8</h3>
+    
+    <p><b>El proceso de cambio a base 8 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte A90456 a base 2.
+            <br>
+            <br>
+            1010 1001 0000 0100 0101 0110 = 101010010000010001010110
+        </li>
+        <br>
+        <li> Se separa en grupos de 3 bits.
+            <br>
+            <br>
+            101 010 010 000 010 001 010 110
+        </li>
+        <br>
+        <li> Se convierte cada grupo de 3 bits a base 8.
+            <br>
+            <br>
+            101 = 5
+            <br>
+            000 = 0 
+            <br>
+            001 = 1
+            <br>
+            111 = 7 
+            <br>
+            101 = 5 
+            <br>
+            100 = 4 
+            <br>
+            100 = 4 
+            <br>
+            011 = 3
+        </li>
+        <br>
+        <li> Se une cada digito obtenido.
+            <br>
+            <br>
+            5 0 1 7 5 4 4 3 = 50175443
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (A90456)<sub>16</sub> = (50175443)<sub>8</sub></p>
+
+    <br>
+    <br>
+
+    <h3>Base 16</h3>
+    
+    <p><b>El proceso de cambio a base 16 es el siguiente:</b></p>
+    <ol>
+        <li> Separar cada digito y representarlos en una potencia de 16.
+            <br>
+            <br>
+    (AX16<sup>5</sup>)+(9x16<sup>4</sup>)+(0x16<sup>3</sup>)+(4x16<sup>2</sup>)+(5x16<sup>1</sup>)+(6x16<sup>0</sup>)
+     
+        </li>
+        <br>
+        <li> Se convierten las potencias, y la A las convierte en su valor decimal que es 10.
+            <br>
+            <br>
+    
+            10x1,048,576 + 9x65,536 + 0x4,096 + 4x256 + 5x16 + 6x1
+    
+             
+        </li>
+    
+        <br>
+        <li> Se realiza cada multiplicacion.
+            <br>
+            <br>
+            10485760+589824+0+1024+80+6 
+        </li>
+    
+        <br>
+        <li> Por ultimo se realiza la suma.
+            <br>
+            <br>
+            10485760+589824+0+1024+80+6 = 11076694
+            <br>
+            <br>
+            
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (A90456)<sub>16</sub> = (11076694)<sub>10</sub></p>
+    <br>
+    <br>
+
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <h2><center>A0FB23</center></h2>
+    <br>
+    <h3>Base 2</h3>
+    
+    <p><b>El proceso de cambio a base 2 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte cada digito en binario con 4 bits.
+            <br>
+            <br>
+            A = 1010 
+            <br>
+            0 = 0000 
+            <br>
+            F = 1111 
+            <br>
+            B = 1011 
+            <br>
+            2 = 0010 
+            <br>
+            3 = 0011
+        </li>
+        <br>
+        <li> Por ultimo se unen los valores convertidos a binario.
+            <br>
+            <br>
+            1010 0000 1111 1011 0010 0011 = 101000001111101100100011
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (A0FB23)<sub>16</sub> = (101000001111101100100011)<sub>2</sub></p>
+
+    <br>
+    <br>
+    <h3>Base 8</h3>
+    
+    <p><b>El proceso de cambio a base 8 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte A0FB23 a base 2.
+            <br>
+            <br>
+            1010 0000 1111 1011 0010 0011 = 101000001111101100100011
+        </li>
+        <br>
+        <li> Se separa en grupos de 3 bits.
+            <br>
+            <br>
+            101 000 001 111 101 100 100 011
+        </li>
+        <br>
+        <li> Se convierte cada grupo de 3 bits a base 8.
+            <br>
+            <br>
+            101 = 5
+            <br>
+            000 = 0 
+            <br>
+            001 = 1
+            <br>
+            111 = 7 
+            <br>
+            101 = 5 
+            <br>
+            100 = 4 
+            <br>
+            100 = 4 
+            <br>
+            011 = 3
+        </li>
+        <br>
+        <li> Se une cada digito obtenido.
+            <br>
+            <br>
+            5 0 1 7 5 4 4 3 = 50175443
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (A0FB23)<sub>16</sub> = (50175443)<sub>8</sub></p>
+
+    <br>
+    <br>
+
+    <h3>Base 16</h3>
+    
+    <p><b>El proceso de cambio a base 16 es el siguiente:</b></p>
+    <ol>
+        <li> Separar cada digito y representarlos en una potencia de 16.
+            <br>
+            <br>
+    (Ax16<sup>5</sup>)+(0x16<sup>4</sup>)+(Fx16<sup>3</sup>)+(Bx16<sup>2</sup>)+(2x16<sup>1</sup>)+(3x16<sup>0</sup>)
+     
+        </li>
+        <br>
+        <li> Se convierten las potencias, la A las convierte en su valor decimal que es 10, la F las convierte en su valor decimal que es 15 la B las convierte en su valor decimal que es 11 .
+            <br>
+            <br>
+    
+            10x1,048,576 + 0x65,536 + 15x4,096 + 11x256 + 2x16 + 3x1
+    
+             
+        </li>
+    
+        <br>
+        <li> Se realiza cada multiplicacion.
+            <br>
+            <br>
+            10485760+0+61440+2816+32+3
+        </li>
+    
+        <br>
+        <li> Por ultimo se realiza la suma.
+            <br>
+            <br>
+            10485760+0+61440+2816+32+3 = 10550051
+            <br>
+            <br>
+            
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (A0FB23)<sub>16</sub> = (10550051)<sub>10</sub></p>
+    <br>
+    <br>
+
+     <!----------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <h2><center>1024</center></h2>
+    <br>
+    <h3>Base 2</h3>
+    
+    <p><b>El proceso de cambio a base 2 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte cada digito en binario con 4 bits.
+            <br>
+            <br>
+            1 = 0001
+            <br>
+            0 = 0000 
+            <br>
+            2 = 0010
+            <br>
+            4 = 0100
+        </li>
+        <br>
+        <li> Por ultimo se unen los valores convertidos a binario.
+            <br>
+            <br>
+            0001 0000 0010 0100 = 0001000000100100 
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (1024)<sub>16</sub> = (0001000000100100 )<sub>2</sub></p>
+
+    <br>
+    <br>
+    <h3>Base 8</h3>
+    
+    <p><b>El proceso de cambio a base 8 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte 1024 a base 2.
+            <br>
+            <br>
+            0001 0000 0010 0100 = 0001000000100100
+        </li>
+        <br>
+        <li> Se separa en grupos de 3 bits, se completa con ceros para tener los grupos de 3 bits
+            <br>
+            <br>
+            000 001 000 000 100 100 
+        </li>
+        <br>
+        <li> Se convierte cada grupo de 3 bits a base 8.
+            <br>
+            <br>
+            000 = 0
+            <br>
+            001 = 1
+            <br> 
+            000 = 0
+            <br> 
+            000 = 0
+            <br>
+            100 = 4
+            <br>
+            100 = 4 
+        </li>
+        <br>
+        <li> Se une cada digito obtenido.
+            <br>
+            <br>
+            000 001 000 000 100 100 = 010044
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (1024)<sub>16</sub> = (010044)<sub>8</sub></p>
+
+    <br>
+    <br>
+
+    <h3>Base 16</h3>
+    
+    <p><b>El proceso de cambio a base 16 es el siguiente:</b></p>
+    <ol>
+        <li> Separar cada digito y representarlos en una potencia de 16.
+            <br>
+            <br>
+    (1x16<sup>3</sup>)+(0x16<sup>2</sup>)+(2x16<sup>1</sup>)+(4x16<sup>0</sup>)
+     
+        </li>
+        <br>
+        <li> Se convierten las potencias, la A las convierte en su valor decimal que es 10, la F las convierte en su valor decimal que es 15 la B las convierte en su valor decimal que es 11 .
+            <br>
+            <br>
+    
+        1x4,096 + 0x256 + 2x16 + 4x1
+    
+             
+        </li>
+    
+        <br>
+        <li> Se realiza cada multiplicacion.
+            <br>
+            <br>
+            4096+0+32+4
+        </li>
+    
+        <br>
+        <li> Por ultimo se realiza la suma.
+            <br>
+            <br>
+            4096+0+32+4 = 4132
+            <br>
+            <br>
+            
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (1024)<sub>16</sub> = (4132)<sub>10</sub></p>
+    <br>
+    <br>
+  <!----------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <h2><center>4980</center></h2>
+    <br>
+    <h3>Base 2</h3>
+    
+    <p><b>El proceso de cambio a base 2 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte cada digito en binario con 4 bits.
+            <br>
+            <br>
+            4 = 0100
+            <br>
+            9 = 1001
+            <br>
+            8 = 1000
+            <br>
+            0 = 0000
+        </li>
+        <br>
+        <li> Por ultimo se unen los valores convertidos a binario.
+            <br>
+            <br>
+            0100 1001 1000 0000 = 0100100110000000
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (4980)<sub>16</sub> = (0100100110000000)<sub>2</sub></p>
+
+    <br>
+    <br>
+    <h3>Base 8</h3>
+    
+    <p><b>El proceso de cambio a base 8 es el siguiente:</b></p>
+    <ol>
+        <li> Se convierte 4980 a base 2.
+            <br>
+            <br>
+            0100 1001 1000 0000 = 0100100110000000
+        </li>
+        <br>
+        <li> Se separa en grupos de 3 bits, se completa con ceros para tener los grupos de 3 bits
+            <br>
+            <br>
+            000 100 100 110 000 000
+        </li>
+        <br>
+        <li> Se convierte cada grupo de 3 bits a base 8.
+            <br>
+            <br>
+            000 = 0
+            <br>
+            100 = 4
+            <br> 
+            100 = 4
+            <br> 
+            110 = 0
+            <br>
+            000 = 4
+            <br>
+            000 = 4 
+        </li>
+        <br>
+        <li> Se une cada digito obtenido.
+            <br>
+            <br>
+             0 4 4 6 0 0 = 044600
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (4980)<sub>16</sub> = (044600)<sub>8</sub></p>
+
+    <br>
+    <br>
+
+    <h3>Base 16</h3>
+    
+    <p><b>El proceso de cambio a base 16 es el siguiente:</b></p>
+    <ol>
+        <li> Separar cada digito y representarlos en una potencia de 16.
+            <br>
+            <br>
+    (4x16<sup>3</sup>)+(9x16<sup>2</sup>)+(8x16<sup>1</sup>)+(0x16<sup>0</sup>)
+     
+        </li>
+        <br>
+        <li> Se convierten las potencias.
+            <br>
+            <br>
+    
+        4x4,096 + 9x256 + 8x16 + 0x1
+    
+             
+        </li>
+    
+        <br>
+        <li> Se realiza cada multiplicacion.
+            <br>
+            <br>
+            16384+2304+128+0
+        </li>
+    
+        <br>
+        <li> Por ultimo se realiza la suma.
+            <br>
+            <br>
+            16384+2304+128+0 = 18816
+            <br>
+            <br>
+            
+        </li>
+        <br>
+    </ol>
+    <p> El resultado de cambio de base es (4980)<sub>16</sub> = (18816)<sub>10</sub></p>
+    <br>
+    <br>
+
+    </main>
+
+    <footer></footer>
+</body>
+</html>
